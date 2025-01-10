@@ -1,0 +1,31 @@
+.btn{
+  position: absolute;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #D9B08C;
+  height: 25px;
+  width: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+
+  &:hover{
+    color: #323232;
+    p{
+      color: red;
+    }
+  }
+}
+p{
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #2C3531;
+}
+
+.signIn{
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
