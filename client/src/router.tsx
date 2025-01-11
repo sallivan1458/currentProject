@@ -1,7 +1,7 @@
 import {createBrowserRouter} from "react-router-dom";
 import App from "@/components/App/App";
 import {Suspense} from "react";
-import {LazyAbout} from "@/pages/about/About.lazy";
+import ChatPage from "@/pages/chat/ChatPage";
 import {LazyShop} from "@/pages/shop/Shop.lazy";
 import {LazyLogin} from "@/pages/login/LoginPageLazy";
 
@@ -11,8 +11,8 @@ export const router = createBrowserRouter([
         element: <App/>,
         children:[
             {
-                path:"/about",
-                element:<Suspense fallback={<h1>loading...</h1>}><LazyAbout/></Suspense>
+                path:"/chat",
+                element:<Suspense fallback={<h1>loading...</h1>}><ChatPage/></Suspense>
             },
             {
                 path:"/shop",

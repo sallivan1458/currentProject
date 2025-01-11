@@ -1,0 +1,45 @@
+.btn{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  transition: 280ms;
+
+  &:hover{
+    transition: 280ms;
+    border: 1px solid #dfdfdf;
+    border-radius: 12px;
+    p{
+      transition: 280ms;
+      color: #dfdfdf;
+      font-size: 13px;
+    }
+  }
+}
+
+.small{
+  height: 25px;
+  width: 60px;
+}
+.medium{
+  height: 30px;
+  width: 70px;
+}
+.large{
+  height: 35px;
+  width: 80px;
+}
+
+.btnColor{
+  background-color: #D9B08C;
+}
+
+p{
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #364a43;
+}
