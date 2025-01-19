@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d42550-8ba7-449a-9937-c6324d0e56d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ForMyFuture.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/DeathStranding-bg.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Messages/Messages.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Messages/Messages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/chat/ChatPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/login/LoginPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/login/handleKeyDown.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/chatHistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/until.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/App/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Button/CustomLinkBtn.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CustomLink/CustomLinkBtn.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Button/CustomLinkBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CustomLink/CustomLinkBtn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/chat/ChatPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/chat/ChatPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/login/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/LoginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +44,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -43,7 +59,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/kassius/Desktop/Frontend/проекты/ForMyFuture",
+    "last_opened_file_path": "/Users/kassius/Desktop/Frontend/проекты/ForMyFuture_socketIO",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,17 +69,17 @@
     "npm.build:dev.executor": "Run",
     "npm.start.executor": "Run",
     "settings.editor.selected.configurable": "configurable.group.build",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/kassius/Desktop/Frontend/проекты/ForMyFuture_socketIO/client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components/Message" />
       <recent name="$PROJECT_DIR$/client/src/assets" />
       <recent name="$PROJECT_DIR$/client/public" />
       <recent name="$PROJECT_DIR$/client/src/components/App" />
       <recent name="$PROJECT_DIR$/client/src/pages/about" />
-      <recent name="$PROJECT_DIR$/client" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build:dev">
@@ -131,7 +147,10 @@
       <workItem from="1736574350959" duration="15000" />
       <workItem from="1736574372314" duration="21000" />
       <workItem from="1736574427484" duration="22000" />
-      <workItem from="1736574494048" duration="4140000" />
+      <workItem from="1736574494048" duration="6140000" />
+      <workItem from="1736610531092" duration="21706000" />
+      <workItem from="1736954594496" duration="31486000" />
+      <workItem from="1737218051229" duration="2056000" />
     </task>
     <servers />
   </component>

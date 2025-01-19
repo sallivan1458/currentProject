@@ -1,0 +1,87 @@
+.wrap{
+  display: flex;
+  height: 92vh;
+  flex-direction: column;
+  align-items: center;
+  background: #2d5542;
+  font-family: Arial;
+}
+.header{
+  margin-top: 40px;
+  padding: 0 20px;
+  background-color: #3b3e47;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  min-height: 80px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.activeUsers{
+  font-size: 12px;
+}
+
+.title{
+  color: white;
+}
+
+.leave{
+  background: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.messages{
+  max-height: 60vh;
+}
+
+
+
+.form{
+  position: relative;
+  padding: 0 20px;
+  background-color: #3b3e47;
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+  width: 650px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+.inputWrapper{
+
+}
+.input{
+  background: none;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: white;
+}
+.emoji{
+  position: absolute;
+  right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emojiPicker{
+  position: absolute;
+  left: -225px;
+  bottom: 50px;
+}
+
+.buttonSubmit{
+  position: absolute;
+  right: 20px;
+  background: #155fb3;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 28px;
+  width: 50px;
+}

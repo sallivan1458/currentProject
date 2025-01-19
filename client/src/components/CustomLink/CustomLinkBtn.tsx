@@ -18,7 +18,7 @@ export default function CustomLinkBtn({title, color, to, size="m"}:ICustomLinkBt
             ${size === "s" ? classes.small : size === "m" ? classes.medium : size === "l" ? classes.large : ''}
             `}
         >
-            <p>{title}</p>
+            <p className={classes.p}>{title}</p>
         </Link>
     )
 }

@@ -1,0 +1,84 @@
+.background{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  padding: 0 10px;
+}
+.background::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 92vh;
+  background-image: url("../../assets/DeathStranding-bg.JPG");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.wrapper {
+  width: 490px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ffffff80;
+  backdrop-filter: blur(8px);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.inputField{
+  position: relative;
+  border-bottom: 2px solid #ccc;
+  margin: 15px 0;
+}
+
+label{
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+
+input{
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.inputField input:focus~label,
+.inputField input:valid~label{
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+}
+
+button{
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  border: 2px solid transparent;
+  transition: ease;
+}
